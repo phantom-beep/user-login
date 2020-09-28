@@ -32,7 +32,7 @@ def index():
 	print(merah + '        ╔══════════════════════════════════════╗')
 	print(merah + '        ║             Login' + putih + ' Termux' + merah + '             ║')
 	print(merah + '        ║                                      ║')
-	print(putih + '        ║          ' + merah + 'Author :' + putih + ' Pandas ID          ║')
+	print(putih + '        ║          ' + merah + 'Author :' + putih + ' Mr.Phantom          ║')
 	print('        ╚══════════════════════════════════════╝')
 	print(merah+'                ║'+waktu+merah+'    ║')
 	print(merah+'                ╚═════════════════════╝')
@@ -99,9 +99,9 @@ def login():
 	
 	name = open('_n', 'r').read()
 	print(merah+'        ╔════════════════════════════════════════╗')		
-	print(merah+'        ║        '+putih+'['+ijo+'•'+putih+']'+kuning+' Selamat Datang '+putih+'['+ijo+'•'+putih+']'+merah+'          ║')
+	print(merah+'        ║        '+putih+'['+ijo+'•'+putih+']'+kuning+' Manyar Cyber '+putih+'['+ijo+'•'+putih+']'+merah+'          ║')
 	print('        ║                                        ║')
-	print('        ║ '+putih+'['+ijo+'•'+putih+']'+kuning+' Silahkan login terlebih dahulu '+putih+'['+ijo+'•'+putih+']'+merah+' ║')
+	print('        ║ '+putih+'['+ijo+'•'+putih+']'+kuning+' Original Wong Manyar '+putih+'['+ijo+'•'+putih+']'+merah+' ║')
 	print('        ╚════════════════════════════════════════╝')
 	print(merah+'                 ║'+waktu+merah+'    ║')
 	print(merah+'                 ╚═════════════════════╝')
@@ -117,19 +117,19 @@ def login():
 		login()
 	print()
 	if user == pas[0][0] and pasw == pas[0][1]:
-		print(putih+'            ['+ijo+'•'+putih+']'+ijo+' login berhasil') 
+		print(putih+'            ['+ijo+'•'+putih+']'+ijo+' login wes tepak') 
 		sleep(1)
 		banner()
 	elif user == pas[0][0] and pasw != pas[0][1]:
-		print(putih+'            ['+merah+'!'+putih+']'+merah+' password salah')
+		print(putih+'            ['+merah+'!'+putih+']'+merah+' SALAH GOBLOK')
 		sleep(1)
 		login()
 	elif user != pas[0][0] and pasw == pas[0][1]:
-		print(putih+'            ['+merah+'!'+putih+']'+merah+' username salah')
+		print(putih+'            ['+merah+'!'+putih+']'+merah+' SALAH GOBLOK')
 		sleep(1)
 		login()
 	else:
-		print(putih+'            ['+merah+'!'+putih+']'+merah+'username & password salah')
+		print(putih+'            ['+merah+'!'+putih+']'+merah+'SALAH GOBLOK')
 		sleep(1)
 		login()
 
